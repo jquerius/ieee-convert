@@ -1,4 +1,17 @@
 # verilog-float-converter
+
+# MacOS: Icarus Verilog
+
+To run the project, install icarus verilog on MacOS with 
+`brew install icarus-verilog`
+
+Then compile float.v with
+```
+iverilog -o float float.v
+./float
+```
+
+# Description 
 A simple routine in Verilog HDL that converts integers into IEEE 754 Floating Point format.
 
 The following approach was used to generate a floating point number: 
