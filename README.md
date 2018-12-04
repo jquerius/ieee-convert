@@ -14,6 +14,9 @@ iverilog -o float float.v
 # Description 
 A simple routine in Verilog HDL that converts integers into IEEE 754 Floating Point format.
 
+The following article discusses exactly what a floating point number is. I highly recommend reading it. 
+https://steve.hollasch.net/cgindex/coding/ieeefloat.html
+
 The following approach was used to generate a floating point number: 
 
 We convert the left-hand argument to a positive binary number even if it was stored as a negative (2’s compliment). The RHS is passed in as an integer, so we need to convert it to a binary fraction. We do this by finding a power of 10 that is greater than the RHS argument. 
