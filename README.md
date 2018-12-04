@@ -1,4 +1,4 @@
-# verilog-float-converter
+# ieee-convert
 
 # MacOS: Icarus Verilog
 
